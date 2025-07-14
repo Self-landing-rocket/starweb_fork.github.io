@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: black; /* or your desired bg */
   overflow-x: hidden;
-  background: url("../../pic/mainpage_background.png") center/cover no-repeat
+  background: url("mainpage_background.png") center/cover no-repeat
     fixed;
 }
 
