@@ -121,7 +121,7 @@ nav {
 /* === REUSE INDEX BACKGROUND === */
 .hero {
   position: relative;
-  background: url("../../pic/mainpage_background.png") center/cover no-repeat;
+  background: url("mainpage_background.png") center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   justify-content: center;
