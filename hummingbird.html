@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Our Team</title>
-    <link rel="stylesheet" href="hummingbird_style.css" />
+    <link rel="stylesheet" href="../css_file/hummingbird_style.css" />
   </head>
 
   <header>
     <img src="your-logo.png" alt="STAR Logo" class="logo" />
-  
+
     <nav>
       <a href="index.html">Home</a>
-  
+
       <div class="dropdown">
         <a class="dropbtn" href="team.html">Team ▾</a>
         <div class="dropdown-content">
-          <a href="avionics.html" >Avionics</a>
+          <a href="avionics.html">Avionics</a>
           <a href="propulsion.html">Propulsion</a>
           <a href="structure.html">Structure</a>
           <a href="guidance.html">Guidance</a>
           <a href="public_relation.html">Public Relation</a>
         </div>
       </div>
-  
+      
       <div class="dropdown">
-        <a class="dropbtn" href="milstone.html">Milestones ▾</a>
+        <a class="dropbtn" href="hummingbird.html">Milestones ▾</a>
         <div class="dropdown-content">
           <a href="hummingbird.html">HummingBird</a>
           <a href="taiwan_cup.html">KilaKila</a>
@@ -36,21 +36,92 @@
   </header>
   <body>
     <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <div class="team-header">
-          <h1>CPLC Lander Challenge</h1>
-        </div>
-        <div class="team-box glass">
-          <h2>MileStone</h2>
-          <p class="team-desc">To be discussed...</p>
-          <div class="member-grid">
-            <div class="member-card glass-card">
-              <img src="../../pic/team/member1.png" alt="" />
-              <h3></h3>
-              <p>To be discussed...</p>
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <div class="team-header">
+            <h1>CPLC Lander Challenge</h1>
+          </div>
+          <div class="team-box glass">
+            <div class="title">
+              <h2><span>MileStone</span></h2>
+            </div>
+
+            <hr></hr>
+
+            <div class="content-1">
+
+              <h2 class="team-section-title">高強度引擎設計</h2>
+            
+              <div class="desc-image-wrap">
+                <div class="desc-text">
+                  <p>
+                    此次自降落火箭引擎選用雙氧水與高壓氮氣作為燃料,
+                    因此推進組設計出耐高溫、低變形的鋼材,
+                    經過壓力與行遍模擬測試,確保其在極端條件下仍能穩定運行,
+                    承受高壓和高流量的氣體通過。
+                  </p>
+                </div>
+            
+                
+              </div>
+
+            </div>
+
+            <hr></hr>
+
+            <div class="content-1">
+              <h2 class="team-section-title">向量推力控制系統</h2>
+              <div class="desc-image-wrap">
+                <div class="desc-text">
+                  <p>
+                    本次推進系統利用兩個電動缸和萬向軸承的組合來實現全向移動。通過調節電動
+                    缸伸長或縮短,以精確控制噴嘴的方向,讓火箭在預定的路徑上移動,成功降落。
+                  </p>
+                  </p>
+                </div>
+            
+                
+              </div>
+            </div>
+            <hr></hr>
+            <div class="content-1">
+              <h2 class="team-section-title">精準通訊技術</h2>
+              <div class="desc-image-wrap">
+                <div class="desc-text">
+                  <p>
+                    為達到精確及時控制推力輸出的效果,通訊方面需能夠實現低延遲、無死角的訊
+                    號傳輸。因此行電阻選擇了圓極化全天線,此種天線具備超過 120 米的傳輸距
+                    離,並且能在 12V 以下的電力供應下穩定運作。此外,該天線的資料傳輸速率
+                    可達 48KBPS 以上,這使得 STAR 火箭能夠實現精準的推力控制,確保火箭在
+                    飛行過程中能夠隨時接收並回應指令,從而達成任務的精確執行。
+                  </p>
+                </div>
+            
+                
+              </div>
+            </div>
+            <hr></hr>
+
+            <div class="content-1">
+              <h2 class="team-section-title">飛行控制系統</h2>
+              <div class="desc-image-wrap">
+                <div class="desc-text">
+                  <p>
+                    火箭發射後其飛行路徑皆由飛行控制系統進行規劃與調整。導控組嘗試研發的飛
+                    控系統為自適應控制演算法 MRAC (model reference adaptive control),以因應具高
+                    度不確定性、高度非線性與時變性的實際飛行過程,使火箭在任何情況下平穩飛
+                    行。同時,MRAC 將搭配估測器與機器學習神經網路進行飛行訓練模擬,使飛控
+                    系統更加可靠與精確,保障火箭的飛行。
+                  </p>
+                </div>
+            
+                
+              </div>
+            </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
   </body>
 </html>
