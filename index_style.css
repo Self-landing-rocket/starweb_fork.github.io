@@ -121,7 +121,7 @@ nav {
 /* === REUSE INDEX BACKGROUND === */
 .hero {
   position: relative;
-  background: url("../../pic/mainpage_background.png") center/cover no-repeat;
+  background: url("mainpage_background.png") center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -249,7 +249,7 @@ nav {
 .goal {
   position: relative;
   min-height: 100vh;
-  background: url("../../pic/hummingbird_background.png") center center/cover
+  background: url("hummingbird_background.png") center center/cover
     no-repeat;
   color: white;
   display: flex;
