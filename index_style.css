@@ -121,7 +121,7 @@ nav {
 /* === REUSE INDEX BACKGROUND === */
 .hero {
   position: relative;
-  background: url("mainpage_background.png") center/cover no-repeat;
+  background: url("../../pic/mainpage_background.png") center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -383,4 +383,45 @@ nav {
   width: 100%;
   max-width: 600px;
   border-radius: 10px;
+}
+
+
+.teamt {
+  background-color: #ffffff; /* light gray background */
+  padding: 4rem 2rem 1rem 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+.teamt-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teamt-text h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  color: #222;
+}
+
+.sponsort-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.sponsort-grid img {
+  max-width: 140px;
+  max-height: 80px;
+  object-fit: contain;
+  filter: grayscale(60%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.sponsort-grid img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
 }
