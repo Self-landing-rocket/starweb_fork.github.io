@@ -302,3 +302,15 @@ pre {
   text-align: center;
   margin: 2rem auto 1.5rem auto;
 }
+.chill {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  max-width: 120px;    /* Adjust logo size */
+  height: auto;
+  z-index: 1000;
+}
+
+header {
+  position: relative; /* Required if image is inside header */
+}
